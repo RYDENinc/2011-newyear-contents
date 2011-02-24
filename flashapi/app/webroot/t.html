@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+
+<h2>get_waiting_count</h2>
+<a href="api/get_waiting_count">GET</a>
+
+<h2>get_waiting_status</h2>
+<form action="api/get_waiting_status" method="post">
+hash:<input name="hash" value="123456">
+<input type="submit">
+</form>
+
+<h2>register_guest</h2>
+<form action="api/register_guest" method="post">
+name:<input name="name" value="テスト">
+<input type="submit">
+</form>
+
+<h2>register_letter</h2>
+<form action="api/register_letter" method="post">
+serial:<input name="serial" value="123456">
+<input type="submit">
+</form>
+
+<h2>kick_fortune</h2>
+<form action="api/kick_fortune" method="post">
+hash:<input name="hash" value="123456">
+result:<input name="result" value="1">
+<input type="submit">
+</form>
+
+<h2>kick_event</h2>
+<form action="api/kick_event" method="post">
+hash:<input name="hash" value="123456">
+event:<input name="event" value="alpaca">
+<input type="submit"> alpaca / light1 / light2
+</form>
+
+<h2>leave</h2>
+<form action="api/leave" method="post">
+hash:<input name="hash" value="123456">
+<input type="submit">
+</form>
+
+</body>
